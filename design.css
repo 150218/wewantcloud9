@@ -1,0 +1,18 @@
+body{
+    background-image: url("broodjes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+
+    }
+h2 {
+    color:white
+}
+p {
+    color:white;
+    text-align: center;
+}
