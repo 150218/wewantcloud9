@@ -11,8 +11,21 @@ h2 {
     color: white;
 }
 
+h3{
+color:white;
+}
+
 p {
     color: white;
 }
-img
+
+.plaatje {
+    text-align: center;
+    width: 100%;
+}
+
+.jouke {
+    background-color:blue;
+    color:white;
+    padding: 10px;
 }
