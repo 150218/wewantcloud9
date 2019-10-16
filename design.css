@@ -1,29 +1,48 @@
+html {
+    height: 100%;
+}
+
 body{
-    background-image: url("broodjes.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    background-color: indianred;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+ }
 
-h1 {
-    color: white;
-    text-align: center;
+#balk {
+    background-color:purple;
+    width: 85%;
+    height: 15%;
+ }
 
-    }
-h2 {
-    color:white
-}
-p {
-    color:white;
-    text-align: center;
-    font-size: 30px;
+#container {
+    background-color: yellow;
+    width: 85%;
+    height: 88%;
+    display: flex;
+ }
+#menu {
+    background-color: blue;
+    width: 15%;
+    height: 100%;
+ }
+#bericht {
+    background-color: white;
+    width: 70%;
+    height: 100%;
 
-
-}
-a {
-    color:white;
-    font-size: 30px;
-    border: solid blue;
-}
-li {
-    margin: 15px;
-}
+ }
+ #plaatjes {
+     background-color: red;
+     width: 15%;
+     height: 100%;
+ }
+ .vak1 {
+     background-color: cadetblue;
+     margin: 10%;
+     margin-top: 10px;
+     padding: 5%;
+     width: 50%;
+     height: 25%;
+ }
+ 
