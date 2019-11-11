@@ -45,8 +45,11 @@ body {
 }
 
 .recepten {
+    width: 100%;
+    height: auto;
     background-image: url('https://www.homemadefood.nl/uploads/broodjes-bezorging_large.jpg');'
-    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    background-repeat: round;
 }
 .nav {
     background-color: black;
@@ -88,7 +91,7 @@ body {
 .nav a:active {
     transform: translateY(2px);
 }
-.home, .colofon, .info {
+.home, .colofon, .info, .recepten{
     background-color: green;
     width: 100%;
     display: inline-block;
@@ -124,7 +127,7 @@ div {
     padding: 0;
 }
 
-.main, .video {
+.main {
     width: 85%;
     background-image: url('https://www.homemadefood.nl/uploads/broodjes-bezorging_large.jpg');
     background-repeat: no-repeat;
@@ -132,9 +135,6 @@ div {
 }
 .main {
     padding-bottom: 60px;
-}
-.videos {
-    text-align: center;
 }
 .row {
     width: 85%;
@@ -165,10 +165,10 @@ div {
 .info {
     width: 85%;
 }
-.info h2, h1 {
+.info h2,.recepten h2, h1 {
     color: white;
 }
-.info p {
+.info p, .recepten p {
     display: inline-block;
     border: 2px solid black;
     width: 80%;
