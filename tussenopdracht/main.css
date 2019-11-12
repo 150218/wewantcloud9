@@ -8,13 +8,13 @@ body {
     background-color: red;
     overflow: hidden;
 }
-#25banner {
+.banner {
     background-color: black;
     height: auto;
     width: 100%;
     text-align: center;
 }
-#5banner img {
+.banner img {
     width: auto;
     height: 100%;
 }
